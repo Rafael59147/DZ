@@ -4,7 +4,8 @@ print(type(immutable_var))
 #immutable_var [1] = False
 #print(immutable_var)
 #кортеж, неизменяемый объект(это встроенная функция самой программы, которую не возможно изменить с помощью кода)
-mutable_list = ([1,2], False, 1.0, 'string')
+mutable_list = ["one","two","three","four"]
 print(mutable_list)
-mutable_list [0][0] = 3
+print(type(mutable_list))
+mutable_list = ["один","два","три","четыре"]
 print(mutable_list)
