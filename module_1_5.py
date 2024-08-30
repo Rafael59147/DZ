@@ -7,6 +7,11 @@ print(type(immutable_var))
 mutable_list = ["one","two","three","four"]
 print(mutable_list)
 print(type(mutable_list))
-mutable_list = ["L","i","s","t"]
+
+mutable_list[0] = 1
+mutable_list[1] = 2
+mutable_list[2] = 3
+mutable_list[3] = 4
+
 print(mutable_list)
 print(type(mutable_list))
